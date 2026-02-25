@@ -13,7 +13,7 @@ let socks5Address = '';
 let parsedSocks5Address = {};
 let enableSocks = false;
 let enableHttp = false;
-let noTLS = 'false';
+let noTLS = 'true';
 const expire = 4102329600;//2099-12-31
 let proxyIPs;
 let socks5s;
@@ -4568,3 +4568,4 @@ async function nginx() {
 	`
     return text;
 }
+
